@@ -1,0 +1,38 @@
+h2{
+    text-align:center;
+}
+table{
+    border-spacing: 2px;
+    border:2px solid black;
+    align-items: center;
+    margin-left: 30rem;
+    border-spacing: 20px;
+}
+form{
+    text-align: center;
+    border-spacing: 2px;
+}
+.submit{
+    border-radius: 20px;
+    height: 40px;
+    width:60px;
+    background-color:  rgba(151, 238, 151, 0.925);
+    margin-top: 1rem;
+
+}
+.reset{
+    border-radius: 20px;
+    height: 40px;
+    width:60px;
+    background-color:  rgb(238, 106, 106);;
+
+}
+.submit:hover{
+    background-color: rgba(80, 179, 80, 0.925);
+}
+.reset:hover{
+    background-color: rgb(206, 58, 58);
+}
+.t,.tr1{
+  border:2px solid black;
+}

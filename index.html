@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="table.css">
+    <script src="table.js"></script>
+</head>
+
+<body>
+    <h2>Details</h2>
+    <form id="details">
+        <table>
+            <tr>
+                <td> First Name:</td>
+                <td><input type="text" placeholder="Your First Name" id="fname" name="fname" required></td>
+            </tr>
+            <tr>
+                <td> Last Name: </td>
+                <td><input type="text" placeholder="Your Last Name" id="lname" name="lname" required></td>
+            </tr>
+            <tr>
+                <td> Phone Number: </td>
+                <td><input type="text" placeholder="Your Phone Number" id="no" required></td>
+            </tr>
+            <tr>
+                <td> Hobby:</td>
+                <td><input type="text" placeholder="Your hobby" id="hobby" required></td>
+            </tr>
+        </table>
+        <input type="submit" class="submit" onclick="validate();return false;" value="Submit">
+        <input type="reset" class="reset" value="Reset">
+    </form>
+    <h2>Registered Details</h2>
+
+</body>
+<table class="t">
+    <tr class="tr1">
+        <td class="td1">First Name</td>
+        <td class="td1">Last Name</td>
+        <td class="td1">Phone Number</td>
+        <td class="td1">Hobby</td>
+        <td class="td1">Action</td>
+    </tr>
+</table>
+
+</html>
