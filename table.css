@@ -7,8 +7,10 @@ table{
     align-items: center;
     margin-left: 30rem;
     border-spacing: 20px;
+    margin:0 auto;
 }
 form{
+    margin:0 auto;
     text-align: center;
     border-spacing: 2px;
 }
